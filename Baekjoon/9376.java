@@ -4,6 +4,7 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 /*
+ * 탈옥 : BFS
  * https://www.acmicpc.net/problem/9376
  */
 
