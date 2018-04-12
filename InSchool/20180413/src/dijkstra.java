@@ -1,5 +1,5 @@
 class dijkstra{
-	  static int n;           
+    static int n;           
     static int maps[][];    
     static int dist[];      
     static boolean[] visit;
