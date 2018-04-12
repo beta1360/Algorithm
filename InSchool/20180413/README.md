@@ -10,6 +10,6 @@ And We refer the below 3 shortest path algorithms.<br>
 ## Comparison of individual algorithms
 
 <img src="https://github.com/KeonHeeLee/MyAlgorithm/blob/master/InSchool/20180413/each_algorithm.png">
-**(img01 : The table of individual algorithms comparison)**<br>
+<br>img01 : The table of individual algorithms comparison<br>
 <br>
-As shown in the table above, each algorithm can be compared. For more information, refer to the source code. (in /src directory)
+As shown in the table above, each algorithm can be compared. For more information, refer to the source code. (in '/src' directory)
