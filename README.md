@@ -1,7 +1,7 @@
 # My Algorithm
 
 This repo is my storage; save algorithm concepts learning in school, problems to have solved.<br>
-If you want to learn algorithm concepts, please look for InSchool category.<br>
+If you want to learn algorithm concepts, please look up InSchool category.<br>
 
 ## InSchool Category Reference
 
@@ -12,3 +12,8 @@ If you want to learn algorithm concepts, please look for InSchool category.<br>
    - dijkstra
    - bellman-ford
    - floyd-warshall
+   
+   
+## Bakjoon Category Reference
+
+If you want to see bakjoon site's problems, please look up this category.
