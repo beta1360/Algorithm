@@ -14,6 +14,6 @@ If you want to learn algorithm concepts, please look up InSchool category.<br>
    - floyd-warshall
    
    
-## Bakjoon Category Reference
+## Baekjoon Category Reference
 
 If you want to see bakjoon site's problems, please look up this category.
