@@ -6,6 +6,18 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.StringTokenizer;
 
+class Edge {
+	public int u;
+	public int v;
+	public int w;
+
+	public Edge(int u, int v, int w) {
+		this.u = u;
+		this.v = v;
+		this.w = w;
+	}
+}
+
 public class p1753 {
 	static int V; 
 	static int E; 
@@ -78,17 +90,5 @@ public class p1753 {
 		for (int i = 1; i < dist.length; i++) {
 			System.out.println(dist[i] == Integer.MAX_VALUE - 1 ? "INF" : dist[i]);
 		}
-	}
-}
-
-class Edge {
-	public int u;
-	public int v;
-	public int w;
-
-	public Edge(int u, int v, int w) {
-		this.u = u;
-		this.v = v;
-		this.w = w;
 	}
 }
