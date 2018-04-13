@@ -14,7 +14,7 @@ int main() {
     int T, N;
     scanf("%d", &T);
  
-    for (int i = 0; i < T; ++i) {
+    for (int i = 0; i < T; i++) {
         scanf("%d", &N);
         if (N == 0) printf("1 0\n");
         else printf("%d %d\n", fibonacci(N - 1), fibonacci(N));
