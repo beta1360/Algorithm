@@ -12,7 +12,7 @@ If you want to learn algorithm concepts, please look up InSchool category.<br>
    - dijkstra
    - bellman-ford
    - floyd-warshall
-   
+5. Huffman endoing alogrithm (~continue)
    
 ## Baekjoon Category Reference
 
