@@ -9,12 +9,12 @@ public class Main {
 		 while(sum < X)  
 			 sum += cnt++;
 		 
-		 int t_cnt = cnt;
+		 int lv = cnt;
 		 int n = 1;
 		 for(int i= sum-cnt+1; i<X; i++) {
 			 cnt--; n++;
 		 }
-		 if (t_cnt%2 != 0)
+		 if (lv%2 != 0)
 			 System.out.println(cnt+"/"+n);
 		 else 
 			 System.out.println(n+"/"+cnt);
