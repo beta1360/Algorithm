@@ -11,9 +11,9 @@ If you want to learn algorithm concepts, please look up InSchool category.<br>
    - Performance comparison between merge sort & selection sort
 2. **[Quick sort](https://github.com/KeonHeeLee/MyAlgorithm/tree/master/InSchool/20180322)** (20180322)
 3. **[Shortest path algorithms](https://github.com/KeonHeeLee/MyAlgorithm/tree/master/InSchool/20180413)** (20180413) 
-   - dijkstra
-   - bellman-ford
-   - floyd-warshall
+   - [dijkstra](https://github.com/KeonHeeLee/MyAlgorithm/blob/master/InSchool/20180413/src/dijkstra.java)
+   - [bellman-ford](https://github.com/KeonHeeLee/MyAlgorithm/blob/master/InSchool/20180413/src/bellman_ford.java)
+   - [floyd-warshall](https://github.com/KeonHeeLee/MyAlgorithm/blob/master/InSchool/20180413/src/floyd_warshall.java)
 4. **[Huffman endoing alogrithm](https://github.com/KeonHeeLee/MyAlgorithm/tree/master/InSchool/20180420)** (20180420 ~continue)
    
 ## [Baekjoon Category Reference](https://github.com/KeonHeeLee/MyAlgorithm/tree/master/Baekjoon)
