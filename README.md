@@ -8,7 +8,7 @@ If you want to learn algorithm concepts, please look up InSchool category.<br>
 1. **[Merge sort & Selection sort](https://github.com/KeonHeeLee/MyAlgorithm/tree/master/InSchool/20180315)** (20180315)
    - [Merge sort](https://github.com/KeonHeeLee/MyAlgorithm/blob/master/InSchool/20180315/src/merge_sort.py)
    - [Selection sort](https://github.com/KeonHeeLee/MyAlgorithm/blob/master/InSchool/20180315/src/selection_sort.py)
-   - Performance comparison between merge sort & selection sort
+   - Performance comparison between merge sort & selection sort
 2. **[Quick sort](https://github.com/KeonHeeLee/MyAlgorithm/tree/master/InSchool/20180322)** (20180322)
    - [Average quick sort](https://github.com/KeonHeeLee/MyAlgorithm/blob/master/InSchool/20180322/src/quick_sort.py)
    - [Worst quick sort](https://github.com/KeonHeeLee/MyAlgorithm/blob/master/InSchool/20180322/src/quick_sort_worst.py)
