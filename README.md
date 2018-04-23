@@ -5,15 +5,17 @@ If you want to learn algorithm concepts, please look up InSchool category.<br>
 
 ## InSchool Category Reference
 
-1. **Merge sort** (20180315)
-2. **Selection sort** (20180315)
-3. **Quick sort** (20180322)
-4. **Shortest path algorithms** (20180413) 
+1. **[Merge sort & Selection sort](https://github.com/KeonHeeLee/MyAlgorithm/tree/master/InSchool/20180315)** (20180315)
+   - Merge sort
+   - Selection sort
+   - Performance comparison between merge sort & selection sort
+2. **[Quick sort](https://github.com/KeonHeeLee/MyAlgorithm/tree/master/InSchool/20180322)** (20180322)
+3. **[Shortest path algorithms](https://github.com/KeonHeeLee/MyAlgorithm/tree/master/InSchool/20180413)** (20180413) 
    - dijkstra
    - bellman-ford
    - floyd-warshall
-5. **Huffman endoing alogrithm** (20180420 ~continue)
+4. **[Huffman endoing alogrithm](https://github.com/KeonHeeLee/MyAlgorithm/tree/master/InSchool/20180420)** (20180420 ~continue)
    
-## Baekjoon Category Reference
+## [Baekjoon Category Reference](https://github.com/KeonHeeLee/MyAlgorithm/tree/master/Baekjoon)
 
 If you want to see bakjoon site's problems, please look up this category.
