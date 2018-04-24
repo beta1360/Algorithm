@@ -1,4 +1,4 @@
-# My Algorithm
+# Algorithm
 
 <img src="https://img.shields.io/badge/language-java-orange.svg">  <img src="https://img.shields.io/badge/language-python3-blue.svg">  <img src="https://img.shields.io/badge/language-C%2B%2B-ff69b4.svg">  <img src="https://img.shields.io/badge/langauge-C-lightgrey.svg">
 
