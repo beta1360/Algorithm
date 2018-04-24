@@ -4,8 +4,7 @@
 In computer science and information theory, a Huffman code is a particular type 
 of optimal prefix code that is commonly used for lossless data compression.
 ```
- <H6>   - The source of reference : </H6>
- [Wikipedia](https://en.wikipedia.org/wiki/Huffman_coding)
+\- The source of reference : [Wikipedia](https://en.wikipedia.org/wiki/Huffman_coding)
 
 ## 1. Huffman encoding source code
  We have implemented the Huffman coding algorithm in Python code. The reason for this is to compress it into a binary file, which was determined that C or C++ or Python equivalent is more suitable for this purpose. Detailed source code can be found in the "src" directory.
