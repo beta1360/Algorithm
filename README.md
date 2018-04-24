@@ -20,4 +20,4 @@ If you want to learn algorithm concepts, please look up InSchool category.<br>
    
 ## [Baekjoon Category Reference](https://github.com/KeonHeeLee/MyAlgorithm/tree/master/Baekjoon)
 
-If you want to see bakjoon site's problems, please look up this category.
+If you want to see bakjoon site's problems, please look up this category. These algorithm problems are based on the [Baekjoon Online Judge site](https://www.acmicpc.net/).
