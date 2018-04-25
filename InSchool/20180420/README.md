@@ -16,11 +16,11 @@ of optimal prefix code that is commonly used for lossless data compression.
 
 ## 2. Huffman algorithm operation
 
-<img src="https://github.com/KeonHeeLee/Algorithm/blob/master/InSchool/20180420/image/01.PNG">
-<img src="https://github.com/KeonHeeLee/Algorithm/blob/master/InSchool/20180420/image/02.PNG">
-<img src="https://github.com/KeonHeeLee/Algorithm/blob/master/InSchool/20180420/image/03.PNG">
-<img src="https://github.com/KeonHeeLee/Algorithm/blob/master/InSchool/20180420/image/04.PNG">
-<img src="https://github.com/KeonHeeLee/Algorithm/blob/master/InSchool/20180420/image/05.PNG">
+<img src="https://github.com/KeonHeeLee/Algorithm/blob/master/InSchool/20180420/image/01.PNG" width="500">
+<img src="https://github.com/KeonHeeLee/Algorithm/blob/master/InSchool/20180420/image/02.PNG" width="500">
+<img src="https://github.com/KeonHeeLee/Algorithm/blob/master/InSchool/20180420/image/03.PNG" width="500">
+<img src="https://github.com/KeonHeeLee/Algorithm/blob/master/InSchool/20180420/image/04.PNG" width="500">
+<img src="https://github.com/KeonHeeLee/Algorithm/blob/master/InSchool/20180420/image/05.PNG" width="500">
 
 
 ## 3. The result of Huffman encoding algorithm
