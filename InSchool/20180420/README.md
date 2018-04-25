@@ -14,9 +14,28 @@ of optimal prefix code that is commonly used for lossless data compression.
 - **[decompress.py](https://github.com/KeonHeeLee/Algorithm/blob/master/InSchool/20180420/src/decompress.py)** : decompressing source code
 - **[util/HeapNode.py](https://github.com/KeonHeeLee/Algorithm/blob/master/InSchool/20180420/src/util/HeapNode.py)** : Heap's node
 
-## 2. Another compressing algorithms
+## 2. Huffman algorithm operation
+
+<img src="https://github.com/KeonHeeLee/Algorithm/blob/master/InSchool/20180420/image/01.PNG">
+<img src="https://github.com/KeonHeeLee/Algorithm/blob/master/InSchool/20180420/image/02.PNG">
+<img src="https://github.com/KeonHeeLee/Algorithm/blob/master/InSchool/20180420/image/03.PNG">
+<img src="https://github.com/KeonHeeLee/Algorithm/blob/master/InSchool/20180420/image/04.PNG">
+<img src="https://github.com/KeonHeeLee/Algorithm/blob/master/InSchool/20180420/image/05.PNG">
+
+
+## 3. The result of Huffman encoding algorithm
+
+<img src="https://github.com/KeonHeeLee/Algorithm/blob/master/InSchool/20180420/image/test.PNG">
+
+
+## 4. Another compressing algorithms
 - 7z, LZH, zip, xz, gz, tar(Actually, tar is not compressing algorithm.)
 - I compared the data from the test cases with the algorithms presented above.
 
-## 3. Compare Huffman & other algorithms
-TODO
+## 5. Compare Huffman & other algorithms
+
+<img src="https://github.com/KeonHeeLee/Algorithm/blob/master/InSchool/20180420/image/compare.PNG">
+
+- x : other algorithms
+- y : test data
+- (x,y) : Compression ratio
