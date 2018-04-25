@@ -23,6 +23,9 @@ of optimal prefix code that is commonly used for lossless data compression.
 <img src="https://github.com/KeonHeeLee/Algorithm/blob/master/InSchool/20180420/image/05.PNG" width="500">
 <img src="https://github.com/KeonHeeLee/Algorithm/blob/master/InSchool/20180420/image/06.PNG" width="500">
 
+- By result of step 6, Huffman code is completed.
+- U = 101, V = 01, W = 100, X = 00, Y = 11
+- Compression ratio : 100 - (163/576)*100 = 71.7% (compression result = 3*12+2*18+3*7+2*15+2*20 = 163-bits)
 
 ## 3. The result of Huffman encoding algorithm
 
