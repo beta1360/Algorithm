@@ -9,9 +9,10 @@ of optimal prefix code that is commonly used for lossless data compression.
 ## 1. Huffman encoding source code
  We have implemented the Huffman coding algorithm in Python code. The reason for this is to compress it into a binary file, which was determined that C or C++ or Python equivalent is more suitable for this purpose. Detailed source code can be found in the "src" directory.
  
-- **main.py** : main source source code
-- **compress.py** : compressing source code
-- **extract.py** : extracting source code
+- **[main.py](https://github.com/KeonHeeLee/Algorithm/blob/master/InSchool/20180420/src/main.py)** : main source source code
+- **[compress.py](https://github.com/KeonHeeLee/Algorithm/blob/master/InSchool/20180420/src/compress.py)** : compressing source code
+- **[decompress.py](https://github.com/KeonHeeLee/Algorithm/blob/master/InSchool/20180420/src/decompress.py)** : decompressing source code
+- **[HeapNode.py](https://github.com/KeonHeeLee/Algorithm/blob/master/InSchool/20180420/src/util/HeapNode.py)** : Heap's node
 
 ## 2. Another compressing algorithms
 TODO
