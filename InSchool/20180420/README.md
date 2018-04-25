@@ -21,6 +21,7 @@ of optimal prefix code that is commonly used for lossless data compression.
 <img src="https://github.com/KeonHeeLee/Algorithm/blob/master/InSchool/20180420/image/03.PNG" width="500">
 <img src="https://github.com/KeonHeeLee/Algorithm/blob/master/InSchool/20180420/image/04.PNG" width="500">
 <img src="https://github.com/KeonHeeLee/Algorithm/blob/master/InSchool/20180420/image/05.PNG" width="500">
+<img src="https://github.com/KeonHeeLee/Algorithm/blob/master/InSchool/20180420/image/06.PNG" width="500">
 
 
 ## 3. The result of Huffman encoding algorithm
