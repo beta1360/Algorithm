@@ -31,6 +31,9 @@ of optimal prefix code that is commonly used for lossless data compression.
 
 <img src="https://github.com/KeonHeeLee/Algorithm/blob/master/InSchool/20180420/image/test.PNG">
 
+- Huffman encoding algorithm have a poor compression ratio as the types of data vary.
+- If you want to see test-cases, please click the right link or go '/test' directory. [link](https://github.com/KeonHeeLee/Algorithm/tree/master/InSchool/20180420/test)
+
 
 ## 4. Another compressing algorithms
 - 7z, LZH, zip, xz, gz, tar(Actually, tar is not compressing algorithm.)
