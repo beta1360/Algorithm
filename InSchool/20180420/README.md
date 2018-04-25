@@ -12,10 +12,11 @@ of optimal prefix code that is commonly used for lossless data compression.
 - **[main.py](https://github.com/KeonHeeLee/Algorithm/blob/master/InSchool/20180420/src/main.py)** : main source source code
 - **[compress.py](https://github.com/KeonHeeLee/Algorithm/blob/master/InSchool/20180420/src/compress.py)** : compressing source code
 - **[decompress.py](https://github.com/KeonHeeLee/Algorithm/blob/master/InSchool/20180420/src/decompress.py)** : decompressing source code
-- **[HeapNode.py](https://github.com/KeonHeeLee/Algorithm/blob/master/InSchool/20180420/src/util/HeapNode.py)** : Heap's node
+- **[util/HeapNode.py](https://github.com/KeonHeeLee/Algorithm/blob/master/InSchool/20180420/src/util/HeapNode.py)** : Heap's node
 
 ## 2. Another compressing algorithms
-TODO
+- 7z, LZH, zip, xz, gz, tar(Actually, tar is not compressing algorithm.)
+- I compared the data from the test cases with the algorithms presented above.
 
 ## 3. Compare Huffman & other algorithms
 TODO
