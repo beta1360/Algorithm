@@ -18,7 +18,7 @@ If you want to learn algorithm concepts, please look up InSchool category.<br>
    - [dijkstra](https://github.com/KeonHeeLee/MyAlgorithm/blob/master/InSchool/20180413/src/dijkstra.java)
    - [bellman-ford](https://github.com/KeonHeeLee/MyAlgorithm/blob/master/InSchool/20180413/src/bellman_ford.java)
    - [floyd-warshall](https://github.com/KeonHeeLee/MyAlgorithm/blob/master/InSchool/20180413/src/floyd_warshall.java)
-4. **[Huffman endoing alogrithm](https://github.com/KeonHeeLee/MyAlgorithm/tree/master/InSchool/20180420)** (20180420 ~continue)
+4. **[Huffman endoing alogrithm](https://github.com/KeonHeeLee/MyAlgorithm/tree/master/InSchool/20180420)** (20180420)
    
 ## [Baekjoon Category Reference](https://github.com/KeonHeeLee/MyAlgorithm/tree/master/Baekjoon)
 
