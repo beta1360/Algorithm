@@ -20,6 +20,7 @@ If you want to learn algorithm concepts, please look up InSchool category.<br>
    - [floyd-warshall](https://github.com/KeonHeeLee/MyAlgorithm/blob/master/InSchool/20180413/src/floyd_warshall.java)
 4. **[Huffman endoing alogrithm](https://github.com/KeonHeeLee/MyAlgorithm/tree/master/InSchool/20180420)** (20180420)
 5. **External Sort algorithm** (20180518)
+6. **Clustering algorithms with library** (20180615)
 
 ## [Baekjoon Category Reference](https://github.com/KeonHeeLee/MyAlgorithm/tree/master/Baekjoon)
 
