@@ -22,6 +22,12 @@ If you want to learn algorithm concepts, please look up InSchool category.<br>
 5. **External Sort algorithm** (20180518)
 6. **[Clustering algorithms with library](https://github.com/KeonHeeLee/clustering)** (20180615)
 
+
+## Study Category Reference
+
+1. MST Algorithm
+   - [Kruskal](./Study/MST/Kruskal.java)
+
 ## [Baekjoon Category Reference](https://github.com/KeonHeeLee/MyAlgorithm/tree/master/Baekjoon)
 
 If you want to see bakjoon site's problems, please look up this category. These algorithm problems are based on the [Baekjoon Online Judge site](https://www.acmicpc.net/). If you want to refer some problems, you can look for this problems in Baekjoon directory.<br/>
