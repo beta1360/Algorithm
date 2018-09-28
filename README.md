@@ -27,6 +27,7 @@ If you want to learn algorithm concepts, please look up InSchool category.<br>
 
 1. MST Algorithm
    - [Kruskal](./Study/MST/Kruskal.java)
+   - [Prim](./Study/MST/Prim.java)
 
 ## [Baekjoon Category Reference](https://github.com/KeonHeeLee/MyAlgorithm/tree/master/Baekjoon)
 
