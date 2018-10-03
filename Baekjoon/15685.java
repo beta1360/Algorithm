@@ -59,7 +59,6 @@ public class Main {
 
     private static int checkSquare(){
         int numOfSquare = 0;
-
         int checkX[] = {0, 1, 1};
         int checkY[] = {1, 0, 1};
 
