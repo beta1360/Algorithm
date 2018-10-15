@@ -30,6 +30,8 @@ If you want to learn algorithm concepts, please look up InSchool category.<br>
    - [Prim](./Study/MST/Prim.java)
    
 2. Tree
+3. Binary Search
+4. Sliding window
 
 ## [Baekjoon Category Reference](https://github.com/KeonHeeLee/MyAlgorithm/tree/master/Baekjoon)
 
