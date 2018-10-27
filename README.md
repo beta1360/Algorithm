@@ -32,6 +32,7 @@ If you want to learn algorithm concepts, please look up InSchool category.<br>
 2. Tree
 3. Binary Search
 4. Sliding window
+5. Segment tree
 
 ## [Baekjoon Category Reference](https://github.com/KeonHeeLee/MyAlgorithm/tree/master/Baekjoon)
 
