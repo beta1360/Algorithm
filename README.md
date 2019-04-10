@@ -38,6 +38,9 @@ If you want to learn algorithm concepts, please look up InSchool category.<br>
 
 If you want to see bakjoon site's problems, please look up this category. These algorithm problems are based on the [Baekjoon Online Judge site](https://www.acmicpc.net/). If you want to refer some problems, you can look for this problems in Baekjoon directory.<br/>
 
+## [SW Expert Academy Category](https://github.com/KeonHeeLee/Algorithm/tree/master/SWEA)
+
+This category's problems are based on [SWEA](https://www.swexpertacademy.com/main/main.do).
 
 ## Contribution
 
