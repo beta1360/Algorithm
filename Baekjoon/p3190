@@ -1,0 +1,190 @@
+import java.io.*;
+import java.util.*;
+
+public class Main {
+
+    private final static int APPLE = -1;
+    private final static int LEFT = 4;
+    private final static int RIGHT = 5;
+    private final static int NONE = 0;
+    private final static int SNAKE = 1;
+    private final static int dx[] = {1, 0, -1, 0};
+    private final static int dy[] = {0, -1, 0, 1};
+
+    private static int N;
+    private static int[][] map;
+    private static Stack<Path> stack;
+    private static int curDirection;
+    private static int curX, curY;
+    private static int snakeSize;
+    private static Queue<Point> q;
+
+    public static void main(String[] argv) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+
+        N = Integer.parseInt(br.readLine());
+        map = new int[N+1][N+1];
+        stack = new Stack<Path>();
+        q = new LinkedList<>();
+        curDirection = 0;
+        curX = curY = 1;
+        snakeSize = 1;
+
+        for(int i=0; i<N+1; ++i)
+            Arrays.fill(map[i], NONE);
+
+        map[curY][curX] = SNAKE;
+        q.offer(new Point(1,1));
+        int K = Integer.parseInt(br.readLine());
+
+        for(int k=0; k<K; ++k){
+            StringTokenizer st = new StringTokenizer(br.readLine());
+            int y = Integer.parseInt(st.nextToken());
+            int x = Integer.parseInt(st.nextToken());
+
+            map[y][x] = APPLE;
+        }
+
+        int L = Integer.parseInt(br.readLine());
+        Stack<Path> temp = new Stack<Path>();
+
+        for(int l=0; l<L; ++l){
+            StringTokenizer st = new StringTokenizer(br.readLine());
+
+            int time = Integer.parseInt(st.nextToken());
+            char d = st.nextToken().charAt(0);
+
+            if(d == 'D')
+                temp.push(new Path(RIGHT, time));
+            else
+                temp.push(new Path(LEFT, time));
+        }
+
+        while(!temp.empty())
+            stack.push(temp.pop());
+
+        bw.write(solution() + "\n");
+
+        br.close();
+        bw.close();
+    }
+
+    private static int solution(){
+        //printMap(0);
+        int time = 1;
+        int nextX = 2, nextY = 1;
+
+        // 다음 포지션을 확인해본다.
+        while(!isFinish(nextX, nextY)){
+            // 만약 유효한 위치면, 확인 후 다음 포인트로 이동
+            // 사과를 먹었냐 안먹었냐 확인
+            if(map[nextY][nextX] != APPLE) {
+                // 사과를 안먹었다면 꼬리흔적 지움
+                Point last = q.poll();
+                map[last.y][last.x] = NONE;
+            } else
+                snakeSize++;
+
+            //System.out.printf("next point (%3d, %3d)\n", nextX, nextY);
+
+            curX = nextX;
+            curY = nextY;
+
+            map[curY][curX] = SNAKE;
+            q.offer(new Point(nextX, nextY));
+
+            //printMap(time);
+
+            // 방향 전환
+            if(!stack.empty())
+                if(stack.peek().t == time)
+                    redirect();
+
+            // 1초씩 추가
+            time++;
+
+            // 다음 포지션 확인
+            Point next = getNextPosition();
+            nextX = next.x;
+            nextY = next.y;
+        }
+
+        return time;
+    }
+
+    private static void printMap(int time){
+        System.out.printf("------%3d sec Map-(size = %2d)----\n", time, snakeSize);
+
+        System.out.println();
+        for(int i=1; i<=N; ++i){
+            for(int j=1; j<=N; ++j){
+                System.out.printf("%3d ", map[i][j]);
+            }
+            System.out.println();
+        }
+        System.out.println("---------------------------------");
+    }
+
+    private static boolean isFinish(int nextX, int nextY){
+        return (isWall(nextX, nextY) || map[nextY][nextX] == SNAKE);
+    }
+
+    private static boolean isWall(int nextX, int nextY){
+        return (nextX == 0 || nextY == 0 || nextX == N+1 || nextY == N+1);
+    }
+
+    private static void redirect() {
+        Path p = stack.pop();
+
+        if (p.d == LEFT) {
+            curDirection++;
+            if(curDirection == 4)
+                curDirection = 0;
+        } else  {// p.d == RIGT
+            curDirection--;
+            if(curDirection == -1)
+                curDirection = 3;
+        }
+    }
+
+    private static Point getNextPosition(){
+        int nX = curX, nY = curY;
+        switch (curDirection){
+            case 0:
+                nX++;
+                break;
+            case 1:
+                nY--;
+                break;
+            case 2:
+                nX--;
+                break;
+            default: // case 3
+                nY++;
+                break;
+        }
+
+        return new Point(nX, nY);
+    }
+
+    static class Point {
+        int x;
+        int y;
+
+        Point(int x, int y){
+            this.x = x;
+            this.y = y;
+        }
+    }
+
+    static class Path {
+        int d;
+        int t;
+
+        Path(int d, int t){
+            this.d = d;
+            this.t = t;
+        }
+    }
+}
